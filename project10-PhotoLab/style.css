@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37353E;
+}
+
+.container{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #44444E;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    overflow: hidden;
+    gap: 20px;
+}
+.controls{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid #fff; */
+    padding: 20px;
+}
+.canvasContainer{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid #fff; */
+}
+h1{
+    color: #fff;
+    
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    color: #fff;
+
+}
+
+.buttonConatiner{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px
+}
+.btn{
+    background-color: #CAAA98;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+.btn:hover{
+    background-color: #E9C9B1;
+    cursor: pointer;
+}
+
+#downloadBtn{
+    background-color: #98CA98;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 80vh;
+    
+}
+#downloadBtn:hover{
+    background-color: #B1E9B1;
+    cursor: pointer;
+}
+.fileInput{
+    background-color: #98CA98;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    /* width: 80vh; */
+    color: black;
+}
+
+.canvasContainer canvas{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid #fff; */
+}
+
+#canvas {
+    
+    object-fit: contain;
+}
